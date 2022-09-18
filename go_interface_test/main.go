@@ -17,6 +17,8 @@ func main() {
 	a := inter.Animal{"aaa"}
 	fmt.Println(" animal get name ", GetName(a))
 
+	//다른 모듈을 import 처리하기
+
 	u := mt.User{"가가가", "77"}
 	fmt.Println("User ", u)
 
