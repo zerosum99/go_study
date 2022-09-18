@@ -7,7 +7,7 @@ func main() {
 
 	var ar = [5]int{1, 2, 3, 4, 5}
 
-	fmt.Printf(" %v ", ar)
+	fmt.Printf(" %v \n ", ar)
 
 	fmt.Printf(" %v ", arrayProc())
 
