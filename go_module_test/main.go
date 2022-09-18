@@ -1,5 +1,6 @@
 package main
 
+//외부 모듈에 대해 go.mod 내에 require, replace 작성 필요
 import (
 	"fmt"
 
