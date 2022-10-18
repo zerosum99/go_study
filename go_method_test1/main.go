@@ -36,4 +36,21 @@ func main() {
 	fmt.Println(sp.Age)
 	fmt.Println(s.Name, s.Age)
 
+	call() //익명함수 호출
+
+}
+
+// call 익명함수 처리
+// 함수 내부에 익명함수 정의하고 이를 호출해서 처리 및 출력
+func call() {
+	sum := func(n ...int) int { //익명함수 정의
+		s := 0
+		for _, i := range n {
+			s += i
+		}
+		return s
+	}
+
+	result := sum(1, 2, 3, 4, 5) //익명함수 호출
+	println(result)
 }
